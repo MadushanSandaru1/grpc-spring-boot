@@ -1,24 +1,85 @@
-# Compiled class file
-*.class
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# Log file
+# Eclipse
+*.launch
+*.settings/
+**/bin/
+*.project
+*.classpath
+
+# Intellij IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+.idea/.name
+.idea/*/workspace.xml
+.idea/*/tasks.xml
+.idea/*/usage.statistics.xml
+.idea/*/dictionaries
+.idea/*/shelf
+.idea/modules.xml
+.idea/*.iml
+.idea/*.ipr
+.idea/workspace.xml
+.idea/libraries
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/codeStyleSettings.xml
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
 *.log
+*.log.*
 
-# BlueJ files
-*.ctxt
+# Temporary Files
+*.swp
+*~
+*#
+#*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Spring Boot specific
+/*.war
+/*.jar
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Thumbnails
+*.thumb
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Generated files
+generated/
+public/
+dist/
+
+# Application-specific
+.env
+*.jks
+*.p12
+
+# Ignore all .class files
+**/*.class
